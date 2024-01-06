@@ -174,9 +174,42 @@ main section {
 
 /*My resume style*/
 
-.coloum-t {
+.resume-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 
+}
+.resume-continer{
+    display: flex;
+    gap: 71px;
+}
+.resume-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+        
+}
+.resume-item-sub-title{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+        
+}
+.item-text{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.resume-continer hr{
+    margin: 30px 0px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
