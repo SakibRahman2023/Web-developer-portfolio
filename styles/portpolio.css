@@ -97,7 +97,7 @@ nav a {
 }
 
 /*main section styles*/
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
@@ -110,16 +110,18 @@ main{
     background: #FFF8F3;
     margin: 130px 0px;
 
-   }
+}
 
 .about-info-con {
     display: flex;
     justify-content: space-around;
 
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
+
 .section-t {
     color: #181818;
     text-align: center;
@@ -133,4 +135,18 @@ main{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.do-t {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+#i-do{
+    padding: 30px 150px;
+}
+.skills-continer{
+    display: flex;
 }
