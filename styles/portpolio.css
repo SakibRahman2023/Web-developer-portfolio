@@ -53,7 +53,7 @@ nav a {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,top left;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -63,7 +63,12 @@ nav a {
     justify-content: space-between;
 }
 
-.banner .profile-pic {
+.banner {
+    width: 500px;
+    height: 600px;
+}
+
+.profile-pic {
     width: 500px;
     height: 600px;
 }
@@ -225,6 +230,7 @@ main section {
     font-size: 16px;
     width: 50%;
 }
+
 /*footer style*/
 footer {
     display: flex;
@@ -233,21 +239,95 @@ footer {
     padding: 230px 130px;
     gap: 100px;
 }
-.contract input,textarea{
+
+.contract input,
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     border-radius: 5px;
-    background:  #FFF;
+    background: #FFF;
     border: 0px;
     width: 100%;
 }
-.socail-link a{
+
+.socail-link a {
     margin-right: 25px;
 }
-.section-tc{
+
+.section-tc {
     color: #181818;
-        text-align: left;
-        font-size: 35px;
-        font-weight: 700;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
 }
+
+
+/* mobile device*/
+@media screen and (max-width:576px) {
+
+    nav,
+    .banner,
+    ul,
+    .skills-continer, .resume-continer, footer {
+        flex-direction: column;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    ul {
+        gap: 1rem;
+    }
+
+    .profile-pic {
+        width: 250px;
+        height: 300px;
+    }
+
+    .banner {
+        padding: 10px 10px 0px 10px;
+        width: 300px;
+        height: auto;
+    }
+
+    .btn-primary {
+        margin-bottom: 1rem;
+    }
+
+    .about {
+        padding: 1rem;
+    }
+
+    .about-info-con {
+        flex-direction: column;
+
+    }
+
+    #i-do {
+        padding: 1.5rem 1rem;
+    }
+    .section-t, .resume-item-sub-title, .resume-item-title {
+        font-size:1.5rem;
+    }
+    .section-tc{
+        text-align:center;
+        
+    }
+    .footer-text{
+        width: 100%;
+    }
+    footer {
+        padding:1rem;
+    }
+    .contract input, textarea {
+        padding:0px;
+    }
+}
+
+
+
+
+
+
+
+
+/*tab device*/
