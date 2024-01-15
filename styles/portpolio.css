@@ -267,12 +267,14 @@ textarea {
 @media screen and (max-width:576px) {
 
     nav,
-    .banner,
     ul,
     .skills-continer, .resume-continer, footer {
         flex-direction: column;
         margin: 1rem 1rem 0 1rem;
     }
+        .banner{
+            flex-direction: column-reverse;
+        }
 
     ul {
         gap: 1rem;
