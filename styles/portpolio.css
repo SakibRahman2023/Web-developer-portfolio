@@ -61,12 +61,8 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-/* .banner {
-    width: 500px;
-    height: 600px; */
 
 .profile-pic {
     width: 500px;
@@ -268,13 +264,16 @@ textarea {
 
     nav,
     ul,
-    .skills-continer, .resume-continer, footer {
+    .skills-continer,
+    .resume-continer,
+    footer {
         flex-direction: column;
         margin: 1rem 1rem 0 1rem;
     }
-        .banner{
-            flex-direction: column-reverse;
-        }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
 
     ul {
         gap: 1rem;
@@ -307,23 +306,34 @@ textarea {
     #i-do {
         padding: 1.5rem 1rem;
     }
-    .section-t, .resume-item-sub-title, .resume-item-title {
-        font-size:1.5rem;
+
+    .section-t,
+    .resume-item-sub-title,
+    .resume-item-title {
+        font-size: 1.5rem;
     }
-    .section-tc{
-        text-align:center;
-        
+
+    .section-tc {
+        text-align: center;
+
     }
-    .footer-text{
+
+    .footer-text {
         width: 100%;
     }
+
     footer {
-        padding:1rem;
+        padding: 1rem;
     }
-    .contract input, textarea {
-        padding:0px;
+
+    .contract input,
+    textarea {
+        padding: 0px;
     }
-    .banner-g,.banner-t, .banner-p {
+
+    .banner-g,
+    .banner-t,
+    .banner-p {
         text-align: center;
     }
 }
@@ -336,3 +346,37 @@ textarea {
 
 
 /*tab device*/
+@media screen and (min-width:576.1px) and (max-width:992px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 1rem;
+    }
+
+    #i-do {
+        padding: 30px 1rem;
+    }
+
+    .skills-continer,
+    footer {
+        flex-direction: column;
+    }
+
+
+    .contract input,
+    textarea {
+        width: 80%;
+    }
+    .skills{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
