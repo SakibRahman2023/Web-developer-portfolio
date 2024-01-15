@@ -59,14 +59,14 @@ nav a {
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+
 }
 
-.banner {
+/* .banner {
     width: 500px;
-    height: 600px;
-}
+    height: 600px; */
 
 .profile-pic {
     width: 500px;
@@ -322,6 +322,9 @@ textarea {
     }
     .contract input, textarea {
         padding:0px;
+    }
+    .banner-g,.banner-t, .banner-p {
+        text-align: center;
     }
 }
 
